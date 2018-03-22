@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/poychang/github-dark-theme.svg?branch=master)](https://travis-ci.org/poychang/github-dark-theme)
+
 # Github Atom One Dark theme with ligatures
 
 https://chrome.google.com/webstore/detail/github-dark-theme/odkdlljoangmamjilkamahebpkgpeacp
