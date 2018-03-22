@@ -16,6 +16,6 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "assemble": "webpack",
-    "build": "webpack && rm ./github.zip || echo 'nothing to remove' && cd dist && bestzip ../github.zip dist/* ./ && cd ../ && cp ./dist/app/app.css ./safari-dark-github.safariextension/app.css && echo 'build done!'"
+    "build": "webpack && rm ./github.zip || echo 'nothing to remove' && cd dist && bestzip ../github.zip ./ && cd ../ && cp ./dist/app/app.css ./safari-dark-github.safariextension/app.css && echo 'build done!'"
   }
 }

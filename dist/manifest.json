@@ -2,16 +2,13 @@
   "manifest_version": 2,
   "name": "Github Dark theme One Dark with ligatures",
   "version": "0.9",
-  "content_scripts": [
-    {
-      "matches": [
-        "https://github.com/*",
-        "https://gist.github.com/*",
-        "https://github.*.com/*"
-      ],
-      "css": ["app/app.css"]
-    }
-  ],
+  "content_scripts": [{
+    "matches": [
+      "https://github.com/*",
+      "https://gist.github.com/*"
+    ],
+    "css": ["app/app.css"]
+  }],
   "icons": {
     "16": "icons/icon16.png",
     "48": "icons/icon48.png",
