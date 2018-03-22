@@ -1,17 +1,17 @@
 body {
   /* # Octotree plugin */
   .octotree_github_sidebar .octotree_views {
-    background-color: @bg-color!important;
-    border-color: @border-color!important;
+    background-color: $bg-color!important;
+    border-color: $border-color!important;
   }
 
   .octotree_github_sidebar .octotree_views .octotree_view .octotree_view_header {
-    background-color: @dropdown-bg!important;
-    border-color: @border-color!important;
+    background-color: $dropdown-bg!important;
+    border-color: $border-color!important;
   }
 
   .octotree_github_sidebar .octotree_views .octotree_treeview .jstree-anchor {
-    color: @text-color!important;
+    color: $text-color!important;
   }
 
   .octotree_github_sidebar .octotree_views .octotree_treeview .jstree-default .jstree-wholerow-hovered {
@@ -23,6 +23,6 @@ body {
   }
   /* # Github TOC plugin */
   .github-toc-entry {
-    color: @text-color!important;
+    color: $text-color!important;
   }
 }

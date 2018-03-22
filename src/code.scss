@@ -1,7 +1,7 @@
 /* # Code */
 .blob-code-inner {
-  color: @code-default-color!important;
-  font-size: @font-size!important;
+  color: $code-default-color!important;
+  font-size: $font-size!important;
 }
 
 .highlighted {
@@ -11,7 +11,7 @@
 code,
 pre,
 tt {
-  font-size: @font-size!important;
+  font-size: $font-size!important;
 }
 
 .blob-num {
@@ -19,12 +19,12 @@ tt {
 }
 
 .blob-wrapper {
-  background: @code-bg!important;
+  background: $code-bg!important;
 }
 
 .range-editor {
-  background-color: @code-bg!important;
-  border-color: @border-color!important;
+  background-color: $code-bg!important;
+  border-color: $border-color!important;
 }
 
 .pl-k {
