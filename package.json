@@ -1,8 +1,8 @@
 {
   "name": "github-dark-theme",
   "version": "0.9",
-  "repository": "git@github.com:vovanmix/github-dark-theme.git",
-  "author": "Vladimir Mikhaylovskiy <vlad@indiegogo.com>",
+  "repository": "git@github.com:poychang/github-dark-theme.git",
+  "author": "Poy Chang <poypost@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "bestzip": "^1.1.4",

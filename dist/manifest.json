@@ -1,7 +1,9 @@
 {
   "manifest_version": 2,
-  "name": "Github Dark theme One Dark with ligatures",
-  "version": "0.9",
+  "name": "Github Dark Theme",
+  "short_name": "Github Dark Theme",
+  "description": "How to protect your eyes from computer screens?",
+  "version": "0.9.1",
   "content_scripts": [{
     "matches": [
       "https://github.com/*",
