@@ -1,0 +1,25 @@
+/* # Insights Pulse */
+
+.summary-stats li .num {
+    color: #d6d8da;
+}
+
+.diffstat-summary strong {
+    color: #d6d8da;
+}
+
+/* # Insights Traffic */
+
+.boxed-group-inner {
+    color: #d6d8da;
+}
+
+table.capped-list tr:nth-child(even) {
+    background-color: #24292e;
+}
+
+/* # Insights Forks */
+
+.network .current-repository {
+    background-color: #586069;
+}
