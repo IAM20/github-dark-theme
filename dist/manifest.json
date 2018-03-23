@@ -3,16 +3,18 @@
   "name": "Github Dark Theme",
   "short_name": "Github Dark Theme",
   "description": "How to protect your eyes from computer screens?",
-  "version": "0.9.3",
-  "content_scripts": [{
-    "matches": [
-      "https://github.com/*",
-      "https://gist.github.com/*"
-    ],
-    "css": [
-      "app/app.css"
-    ]
-  }],
+  "version": "0.9.4",
+  "content_scripts": [
+    {
+      "matches": [
+        "https://github.com/*",
+        "https://gist.github.com/*"
+      ],
+      "css": [
+        "app/app.css"
+      ]
+    }
+  ],
   "icons": {
     "16": "icons/icon16.png",
     "48": "icons/icon48.png",

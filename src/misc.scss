@@ -1,25 +1,26 @@
 /* # Insights Pulse */
 
 .summary-stats li .num {
-    color: #d6d8da;
+    color: #d6d8da !important;
 }
 
 .diffstat-summary strong {
-    color: #d6d8da;
+    color: #d6d8da !important;
 }
 
 /* # Insights Traffic */
 
 .boxed-group-inner {
-    color: #d6d8da;
+    color: #d6d8da !important;
 }
 
 table.capped-list tr:nth-child(even) {
-    background-color: #24292e;
+    background-color: #24292e !important;
 }
 
 /* # Insights Forks */
 
 .network .current-repository {
-    background-color: #586069;
+    background-color: #586069 !important;
 }
+
