@@ -1,31 +1,42 @@
 /* # Insights Pulse */
 
 .summary-stats li .num {
-    color: #d6d8da !important;
+    color: $text-color !important;
 }
 
 .diffstat-summary strong {
-    color: #d6d8da !important;
+    color: $text-color !important;
 }
 
 /* # Insights Traffic */
 
 .boxed-group-inner {
-    color: #d6d8da !important;
+    color: $text-color !important;
 }
 
 table.capped-list tr:nth-child(even) {
-    background-color: #24292e !important;
+    background-color: $bg-color !important;
 }
 
 /* # Insights Forks */
 
 .network .current-repository {
-    background-color: #586069 !important;
+    background-color: $private-bg !important;
 }
 
 /* Marketplace */
 
 .MarketplaceSideNav {
-    background-color: #24292e !important;
+    background-color: $bg-color !important;
+}
+
+
+/* Upgrade your plan */
+
+.radio-label {
+    color: $text-color !important;
+}
+
+.bg-gray {
+    background-color: $dropdown-bg !important;
 }
