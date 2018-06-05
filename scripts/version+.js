@@ -1,5 +1,5 @@
 const fs = require('fs');
-const versionFileList = ['./package.json', './dist/manifest.json'];
+const versionFileList = ['./package.json', './package-lock.json', './dist/manifest.json'];
 
 versionFileList.forEach(file => {
   fs.readFile(file, 'utf8', function(err, data) {
