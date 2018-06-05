@@ -213,6 +213,13 @@ body {
   .news .alert {
     border-top: 1px solid $border-color !important;
   }
+  .dashboard-notice {
+    background-color: #31363f !important;
+    border: solid 1px $border-color !important;
+    h2 {
+      color: $text-color !important;
+    }
+  }
   .branch-infobar {
     background-color: $tag-bg-color !important;
     border-color: $border-color !important;
