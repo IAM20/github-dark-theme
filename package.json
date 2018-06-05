@@ -1,28 +1,28 @@
 {
-  "name": "github-dark-theme",
-  "version": "0.9.6",
-  "repository": "git@github.com:poychang/github-dark-theme.git",
-  "author": "Poy Chang <poypost@gmail.com>",
-  "license": "MIT",
-  "dependencies": {},
-  "devDependencies": {
-    "bestzip": "^1.1.4",
-    "css-loader": "^0.28.1",
-    "extract-text-webpack-plugin": "^2.1.0",
-    "node-sass": "^4.7.2",
-    "sass-loader": "^6.0.7",
-    "style-loader": "^0.17.0",
-    "webpack": "^2.4.1",
-    "webstore-upload": "^0.0.8",
-    "zip-folder": "^1.0.0"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\"",
-    "assemble": "webpack",
-    "build": "webpack && node scripts/zip.js",
-    "build-safari": "webpack && cp ./dist/app/app.css ./safari-dark-github.safariextension/app.css",
-    "zip": "node scripts/zip.js",
-    "upload": "node scripts/upload.js",
-    "version+": "node scripts/version+.js"
-  }
+    "name": "github-dark-theme",
+    "version": "0.9.7",
+    "repository": "git@github.com:poychang/github-dark-theme.git",
+    "author": "Poy Chang <poypost@gmail.com>",
+    "license": "MIT",
+    "dependencies": {},
+    "devDependencies": {
+        "bestzip": "^1.1.4",
+        "css-loader": "^0.28.1",
+        "extract-text-webpack-plugin": "^2.1.0",
+        "node-sass": "^4.7.2",
+        "sass-loader": "^6.0.7",
+        "style-loader": "^0.17.0",
+        "webpack": "^2.4.1",
+        "webstore-upload": "^0.0.8",
+        "zip-folder": "^1.0.0"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\"",
+        "assemble": "webpack",
+        "build": "webpack && node scripts/zip.js",
+        "build-safari": "webpack && cp ./dist/app/app.css ./safari-dark-github.safariextension/app.css",
+        "zip": "node scripts/zip.js",
+        "upload": "node scripts/upload.js",
+        "version+": "node scripts/version+.js"
+    }
 }

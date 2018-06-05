@@ -1,49 +1,49 @@
 /* # Code */
 
 .blob-code-inner {
-  color: $code-default-color !important;
-  font-size: $font-size !important;
+    color: $code-default-color !important;
+    font-size: $font-size !important;
 }
 
 .highlighted {
-  background-color: #3c414a !important;
+    background-color: #3c414a !important;
 }
 
 code,
 pre,
 tt {
-  font-size: $font-size !important;
+    font-size: $font-size !important;
 }
 
 .blob-num {
-  color: #636d83 !important;
+    color: #636d83 !important;
 }
 
 .blob-wrapper {
-  background: $code-bg !important;
+    background: $code-bg !important;
 }
 
 .range-editor {
-  background-color: $code-bg !important;
-  border-color: $border-color !important;
+    background-color: $code-bg !important;
+    border-color: $border-color !important;
 }
 
 .pl-k {
-  color: #c678dd !important;
+    color: #c678dd !important;
 }
 
 .pl-e,
 .pl-en {
-  color: #61afef !important;
+    color: #61afef !important;
 }
 
 .pl-ent {
-  color: #7fba00 !important;
+    color: #7fba00 !important;
 }
 
 .pl-c1,
 .pl-s .pl-v {
-  color: #d19a66 !important;
+    color: #d19a66 !important;
 }
 
 .pl-pds,
@@ -53,20 +53,20 @@ tt {
 .pl-sr .pl-cce,
 .pl-sr .pl-sra,
 .pl-sr .pl-sre {
-  color: #98c379 !important;
+    color: #98c379 !important;
 }
 
 .pl-s .pl-s1,
 .pl-smi {
-  color: #c55 !important;
+    color: #c55 !important;
 }
 
 .pl-mh,
 .pl-mh .pl-en,
 .pl-ms {
-  color: #e5c07b !important;
+    color: #e5c07b !important;
 }
 
 .pl-mb {
-  color: #ccc !important;
+    color: #ccc !important;
 }
