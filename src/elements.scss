@@ -178,3 +178,7 @@ body {
 .cc-ext .pagehead-actions .cc-classic-cta a {
     border-color: $border-color !important;
 }
+
+.pagehead-actions>li {
+    color: $bright-text-color !important;
+}
