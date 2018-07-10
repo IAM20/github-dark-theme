@@ -39,3 +39,7 @@ table.capped-list tr:nth-child(even) {
 .bg-gray {
     background-color: $dropdown-bg !important;
 }
+
+.bg-gray-light {
+    background-color: $tag-bg-color !important;
+}
