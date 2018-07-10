@@ -2,12 +2,13 @@
 
 [![Build Status](https://travis-ci.org/poychang/github-dark-theme.svg?branch=master)](https://travis-ci.org/poychang/github-dark-theme)
 
-https://chrome.google.com/webstore/detail/github-dark-theme/odkdlljoangmamjilkamahebpkgpeacp
+[![Download Extension from Chrome Web Store](https://i.imgur.com/yF81YSi.png)](https://chrome.google.com/webstore/detail/github-dark-theme/odkdlljoangmamjilkamahebpkgpeacp)
 
 This package will change appearance of all Github pages to dark theme, mostly based on Atom One Dark.
 
 ```
-yarn run build
+npm run version+
+npm run build
 ```
 
 Use Codemirror styles from https://github.com/StylishThemes/GitHub-Dark/tree/master/themes/codemirror
