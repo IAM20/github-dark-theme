@@ -365,6 +365,9 @@ body {
     }
     .tag-info {
         color: $link-color;
+        .tag-name {
+            color: $text-color;
+        }
     }
     .Box-header {
         background-color: $dropdown-bg !important;
