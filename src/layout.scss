@@ -364,9 +364,9 @@ body {
         background-color: $tag-bg-color !important;
     }
     .tag-info {
-        color: $link-color;
+        color: $link-color !important;
         .tag-name {
-            color: $text-color;
+            color: $text-color !important;
         }
     }
     .Box-header {
