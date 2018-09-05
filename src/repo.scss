@@ -61,4 +61,13 @@ body {
     .release-label {
         background-color: $tag-bg-color !important;
     }
+    .details-truncate-file-list .btn-truncate-file-list {
+        background: $bg-color !important;
+        &:hover {
+            background: $file-row-active-bg !important;
+        }
+    }
+    .text-blue {
+        color: $text-color !important;
+    }
 }
