@@ -1,0 +1,40 @@
+.steps li {
+    background-color: $comment-bg !important;
+    color: $text-color !important;
+}
+
+.setup-info-module {
+    background-color: $comment-bg !important;
+}
+
+.autocomplete-results {
+    background: $dropdown-bg !important;
+
+    .member-suggestion {
+        .member-suggestion-info {
+            .member-login {
+                color: $bright-text-color !important;
+            }
+
+            .member-name {
+                color: $text-color !important;
+            }
+        }
+    }
+}
+
+.Box-row--gray {
+    background-color: $comment-bg !important;
+}
+
+.menu-heading {
+    background-color: $head-bg !important;
+}
+
+.project-header {
+    background-color: $head-bg !important;
+}
+
+.project-column {
+    background-color: $comment-bg !important;
+}
