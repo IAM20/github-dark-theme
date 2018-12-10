@@ -70,6 +70,9 @@ body {
     .btn-outline:disabled {
         background-color: $dropdown-bg !important;
     }
+    .gh-header{
+        background-color: transparent !important;
+    }
     .gh-header-meta {
         color: $text-color !important;
     }
